@@ -1,0 +1,6 @@
+{
+  "name": "The Guardians Brotherhood",
+  "description": "Official portal for The Guardians Brotherhood, Inc. - The Original (TGBI-TO), showcasing history, principles, code of ethics, announcements, and membership applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
