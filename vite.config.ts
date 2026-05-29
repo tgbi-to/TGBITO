@@ -5,7 +5,12 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/TGBITO/',
     plugins: [react(), tailwindcss()],
+    build: {
+      outDir: 'docs',
+      emptyOutDir: true,
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
