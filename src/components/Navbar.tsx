@@ -47,8 +47,13 @@ export default function Navbar({ onScrollTo, activeSection }: NavbarProps) {
         <div className="flex items-center justify-between h-12">
           {/* Logo Brand */}
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => handleNavClick('home')}>
-            <div className="bg-brand-secondary/10 p-2 rounded-lg border border-brand-secondary/30">
-              <Shield className="w-6 h-6 text-brand-secondary animate-pulse" />
+            <div className="relative w-10 h-10 rounded-full border border-brand-secondary/40 overflow-hidden shrink-0 flex items-center justify-center bg-brand-primary">
+              <img
+                src="https://raw.githubusercontent.com/tgbi-to/repo/main/assets/brand/TGBITO.jpg"
+                alt="TGBI-TO Logo"
+                className="w-full h-full object-cover rounded-full"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <div>
               <span className="text-xl font-bold tracking-wider text-white font-display">

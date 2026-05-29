@@ -3,31 +3,31 @@ import { History, Shield, Footprints, Medal, CalendarSync, Heart, Sparkles } fro
 export default function AboutHistory() {
   const timeline = [
     {
-      year: 'Early 1980s',
+      year: '1976',
       title: 'Mindanao Jungle Origins',
-      tag: 'Diablo Squad',
-      desc: 'Formed deep in the rugged environments of Mindanao as a unified group of brave, dedicated men bound together by extreme survival conditions, mutual protection, and deep trust under national defense scenarios.',
+      tag: 'Diablo Squad Founded',
+      desc: 'The movement began in the jungles of Mindanao as the military unit Diablo Squad, founded by the legendary LEBORIO JANGAO JR. (known as "BFG ABRAHAM" — the Brain and Father of all GUARDIANS), bound together by deep brotherhood and mutual defense.',
       icon: Footprints,
     },
     {
       year: 'Mid 1980s',
       title: 'Civic Transformation',
       tag: 'Diablo Squad Crime Buster',
-      desc: 'Evolved into Diablo Squad Crime Buster, redirecting defensive energies and focus toward active public safety, supporting community services, peace maintenance, and social justice.',
+      desc: 'Following directives in November 1984 under Armed Forces LT. General Fidel V. Ramos to disband military factions, DSCB transformed with legal blessings into a civil-military organization for public safety and social justice.',
       icon: Shield,
     },
     {
       year: 'Dec 10, 1984',
       title: 'Inc. Legal Charter',
       tag: 'SEC Registration 123899',
-      desc: 'Officially registered with SEC, creating a permanent, lasting institutional legacy of structural brotherhood, legal orderliness, and code of discipline under SEC Registration No. 123899.',
+      desc: 'Officially registered as a non-stock, non-profit civil-military legal entity under SEC Registration No. 123899, establishing the permanent legal foundation of The Guardians Brotherhood, Inc. (TGBI).',
       icon: Medal,
     },
     {
       year: 'Present Day',
       title: 'The Original Lineage Reform',
-      tag: 'UPMF Carlomagno',
-      desc: 'Active global chapters under the direct and guiding leadership of original Incorporator and International Chairman UPMF CARLOMAGNO, upholding pure principles and legal transparency.',
+      tag: 'International Chapters',
+      desc: 'Operating internationally with reformed, unified chapters under the direct guidance of original 1984 incorporator and International Chairman ELPIDIO “UPMF CARLOMAGNO” SELETARIA JR., LLB.',
       icon: CalendarSync,
     },
   ];
@@ -68,12 +68,12 @@ export default function AboutHistory() {
             
             <div className="md:col-span-4 bg-[#0d233a] p-6 rounded border border-brand-secondary/20 text-center text-white space-y-3">
               <Heart className="w-10 h-10 text-brand-secondary mx-auto animate-pulse" />
-              <h4 className="font-serif italic text-lg text-white">Our Ultimate Motto</h4>
-              <p className="text-[10px] text-brand-secondary tracking-widest uppercase font-mono font-bold">
-                "We Serve with Pride and Honor"
+              <h4 className="font-serif italic text-lg text-white">Official Motto</h4>
+              <p className="text-[10px] text-brand-secondary tracking-wide uppercase font-mono font-bold leading-relaxed">
+                "Brotherhood for peace and prosperity"
               </p>
               <p className="text-[10px] text-slate-400 italic">
-                Upholding the original covenants written on December 10, 1984.
+                Covenants registered under SEC on December 10, 1984.
               </p>
             </div>
             
@@ -140,7 +140,7 @@ export default function AboutHistory() {
             </div>
             <div className="space-y-1.5">
               <h4 className="text-base font-serif italic text-brand-secondary tracking-wide">
-                Directives of UPMF CARLOMAGNO • International Chairman
+                Directives of ELPIDIO “UPMF CARLOMAGNO” SELETARIA JR., LLB. • International Chairman & Founder
               </h4>
               <p className="text-xs md:text-sm text-slate-300 leading-relaxed text-left font-serif italic">
                 "Upholding the original values of the Diablo Squad requires extreme diligence. We must continuously keep our rosters clean, respect public laws, support the local authorities, and provide selflessness in our respective offices. Let no member take advantage of their position. Peace and brotherhood will always guide us to prosperity."

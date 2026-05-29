@@ -19,8 +19,13 @@ export default function Footer({ onScrollTo }: FooterProps) {
           {/* Logo & Slogan block */}
           <div className="md:col-span-5 space-y-4 text-left">
             <div className="flex items-center space-x-3 cursor-pointer" onClick={() => onScrollTo('home')}>
-              <div className="bg-brand-secondary/15 p-2 rounded-none border border-brand-secondary/35">
-                <Shield className="w-6 h-6 text-brand-secondary" />
+              <div className="relative w-10 h-10 rounded-full border border-brand-secondary/45 overflow-hidden shrink-0 flex items-center justify-center bg-brand-primary">
+                <img
+                  src="https://raw.githubusercontent.com/tgbi-to/repo/main/assets/brand/TGBITO.jpg"
+                  alt="TGBI-TO Logo"
+                  className="w-full h-full object-cover rounded-full"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <span className="text-2xl font-serif italic tracking-wide text-white">
                 TGBI<span className="text-brand-secondary font-sans font-bold not-italic">-TO</span>
@@ -31,8 +36,8 @@ export default function Footer({ onScrollTo }: FooterProps) {
               We stand as the authentic lineage of The Guardians Brotherhood, Inc. - The Original, registered under secular and democratic laws to foster unity, public security, and lifelong fraternity in the Philippines and global defense chapters.
             </p>
             
-            <p className="text-xs font-bold tracking-widest uppercase text-brand-secondary font-mono">
-              "We Serve with Pride and Honor"
+            <p className="text-xs font-bold tracking-wider uppercase text-brand-secondary font-mono">
+              "Brotherhood for peace and prosperity"
             </p>
           </div>
 
@@ -82,10 +87,10 @@ export default function Footer({ onScrollTo }: FooterProps) {
               <div className="flex gap-2.5 items-start">
                 <Mail className="w-4 h-4 text-brand-secondary shrink-0 mt-0.5" />
                 <a
-                  href="mailto:jseletaria1542@yahoo.com"
+                  href="mailto:theguardiansv@gmail.com"
                   className="hover:text-brand-secondary break-all font-mono"
                 >
-                  jseletaria1542@yahoo.com
+                  theguardiansv@gmail.com
                 </a>
               </div>
             </div>

@@ -44,12 +44,15 @@ export default function Hero({ onExplore }: HeroProps) {
             </div>
 
             {/* Descriptive Body and Motto block */}
-            <div className="space-y-4">
-              <p className="text-sm leading-relaxed text-slate-300 border-l-2 border-brand-secondary pl-6 italic">
-                "Brotherhood for peace and prosperity. In good standing in our communities, we come together to promote our social, intellectual, and moral well-being."
-              </p>
+            <div className="space-y-5">
+              <div className="border-l-4 border-brand-secondary pl-4 py-1">
+                <span className="text-[9px] font-mono font-bold uppercase tracking-[0.3em] text-brand-secondary block mb-1">Our Official Motto</span>
+                <p className="text-xl sm:text-2xl font-serif italic text-[#dfb15b] tracking-wide leading-relaxed">
+                  "Brotherhood for peace and prosperity"
+                </p>
+              </div>
               <p className="text-sm text-slate-300 leading-relaxed max-w-xl">
-                We, men and women of goodwill, are united across regional and international chapters under the guidance of our International Chairman, <strong>UPMF CARLOMAGNO</strong>, an original incorporator.
+                In good standing in our communities, we, men and women of goodwill, are united across regional and international chapters under the guidance of our International Chairman, <strong>ELPIDIO “UPMF CARLOMAGNO” SELETARIA JR., LLB.</strong>, an original 1984 incorporator, to promote our social, intellectual, and moral well-being.
               </p>
             </div>
 
@@ -86,46 +89,19 @@ export default function Hero({ onExplore }: HeroProps) {
 
           {/* Graphical Emblem representation Column */}
           <div className="lg:col-span-5 flex justify-center items-center">
-            <div className="relative w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-slate-800/40 p-4 border border-brand-secondary/20 flex items-center justify-center shadow-inner group">
-              {/* Outer decorative ring */}
-              <div className="absolute inset-2 border border-dashed border-brand-secondary/40 rounded-full animate-[spin_60s_linear_infinite]" />
-              <div className="absolute inset-6 border border-brand-secondary/10 rounded-full" />
+            <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full bg-slate-800/20 p-2.5 border border-brand-secondary/25 flex items-center justify-center shadow-lg group">
+              {/* Outer decorative rings */}
+              <div className="absolute inset-1 border border-dashed border-brand-secondary/30 rounded-full animate-[spin_80s_linear_infinite]" />
+              <div className="absolute inset-4 border border-brand-secondary/10 rounded-full pointer-events-none" />
               
-              {/* Beautiful custom vector crest representation strictly local */}
-              <div className="z-10 flex flex-col items-center justify-center p-8 text-center">
-                <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-brand-primary border-4 border-brand-secondary flex items-center justify-center shadow-lg transition-transform duration-500 group-hover:scale-105">
-                  <ShieldCheck className="w-12 h-12 text-brand-secondary" />
-                </div>
-                
-                <h3 className="mt-4 font-extrabold text-white text-lg tracking-widest uppercase font-display">
-                  TGBI - TO
-                </h3>
-                <p className="text-[10px] text-brand-secondary font-bold tracking-widest uppercase font-mono mt-1">
-                  Est. Dec 10, 1984
-                </p>
-                
-                <div className="mt-4 flex flex-col items-center space-y-1">
-                  <div className="flex justify-center space-x-1.5">
-                    {['B', 'I', 'P', 'D', 'S', 'E', 'J'].map((p, idx) => (
-                      <span 
-                        key={idx} 
-                        className="text-[10px] font-mono bg-white/10 text-white rounded w-5 h-5 flex items-center justify-center font-bold border border-white/10 hover:text-brand-secondary hover:border-brand-secondary/40 cursor-default"
-                        title="Brotherhood, Integrity, Peace, Discipline, Service, Equality, Justice"
-                      >
-                        {p}
-                      </span>
-                    ))}
-                  </div>
-                  <p className="text-[9px] text-gray-400 mt-1 uppercase font-mono tracking-widest">
-                    The Seven Guiding Values
-                  </p>
-                </div>
-
-                <div className="absolute bottom-6 bg-brand-primary border border-brand-secondary/30 px-3 py-1 rounded-sm shadow-md">
-                  <p className="text-[9px] font-bold tracking-widest text-[#cf9e4b] uppercase font-mono">
-                    General Headquarters • Quezon City
-                  </p>
-                </div>
+              {/* Official circular seal image */}
+              <div className="relative w-full h-full rounded-full overflow-hidden p-1 bg-[#1a0e05]/30">
+                <img
+                  src="https://raw.githubusercontent.com/tgbi-to/repo/main/assets/brand/TGBITO.jpg"
+                  alt="THE GUARDIANS BROTHERHOOD, INC. - THE ORIGINAL (TGBI-TO) Seal"
+                  className="w-full h-full rounded-full object-cover shadow-2xl transition-transform duration-500 group-hover:scale-[1.03]"
+                  referrerPolicy="no-referrer"
+                />
               </div>
             </div>
           </div>

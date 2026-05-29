@@ -60,11 +60,27 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <h4 className="text-[10px] font-bold uppercase tracking-widest text-[#dfb15b] font-mono">
-                      Physical Secretariat Office
+                      General Headquarters (GHQ)
                     </h4>
                     <p className="text-xs text-white leading-relaxed mt-1 font-sans">
                       43-A Pangasinan St., Bago Bantay,<br />
                       Quezon City, 1105 Philippines
+                    </p>
+                  </div>
+                </div>
+
+                {/* OIC USA Address representation */}
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-none bg-white/5 border border-white/15 flex items-center justify-center text-brand-secondary shrink-0">
+                    <MapPin className="w-5 h-5 opacity-80" />
+                  </div>
+                  <div>
+                    <h4 className="text-[10px] font-bold uppercase tracking-widest text-[#dfb15b] font-mono">
+                      Office of the Intl. Chairman (OIC)
+                    </h4>
+                    <p className="text-xs text-slate-300 leading-relaxed mt-1 font-sans">
+                      8500 Boyne Street,<br />
+                      Downey, California 90242, USA
                     </p>
                   </div>
                 </div>
@@ -79,10 +95,10 @@ export default function ContactForm() {
                       Electronic Mail Desk
                     </h4>
                     <a
-                      href="mailto:jseletaria1542@yahoo.com"
+                      href="mailto:theguardiansv@gmail.com"
                       className="text-xs text-[#dfb15b] hover:text-[#cf9e4b] font-semibold mt-1 block break-all font-mono"
                     >
-                      jseletaria1542@yahoo.com
+                      theguardiansv@gmail.com
                     </a>
                   </div>
                 </div>
